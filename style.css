@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+    font-family: Helvetica;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    padding: 80px;
+}
+
+#relogio{
+    font-size: 3rem;
+    font-weight: bold; /*negrito*/
+    color: #FFF;
+    text-align: center;
+    border: 2px solid #FFF; /*borda branca*/
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    height: 80px;
+    display: flex;  /*display e aling center é parta os numeros ficarem no centro do relogio*/
+    align-items: center;
+}
+
+#relogio span{
+    margin-right: 0.5rem;
+}
